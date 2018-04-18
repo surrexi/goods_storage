@@ -1,5 +1,5 @@
 let mix = require('laravel-mix');
-
+let bootstrap_sass = './node_modules/bootstrap-sass/';
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
