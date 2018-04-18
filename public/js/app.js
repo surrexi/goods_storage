@@ -1088,19 +1088,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_products_ProductsIndex_vue__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_products_ProductsIndex_vue__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_products_ProductsIndex_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_products_ProductsIndex_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_products_ProductCreate_vue__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_products_ProductCreate_vue__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_products_ProductCreate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_products_ProductCreate_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_products_ProductEdit_vue__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_products_ProductEdit_vue__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_products_ProductEdit_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_products_ProductEdit_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_cells_CellsIndex_vue__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_cells_CellsIndex_vue__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_cells_CellsIndex_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_cells_CellsIndex_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_cells_CellShow_vue__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_cells_CellShow_vue__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_cells_CellShow_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_cells_CellShow_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_cells_CellCreate_vue__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_cells_CellCreate_vue__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_cells_CellCreate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_cells_CellCreate_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_cells_CellEdit_vue__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_cells_CellEdit_vue__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_cells_CellEdit_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__components_cells_CellEdit_vue__);
 window.axios = __webpack_require__(12);
 
@@ -15865,18 +15865,15 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 35 */,
-/* 36 */,
-/* 37 */,
-/* 38 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(39)
+var __vue_script__ = __webpack_require__(36)
 /* template */
-var __vue_template__ = __webpack_require__(40)
+var __vue_template__ = __webpack_require__(37)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -15915,7 +15912,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 39 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15999,7 +15996,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 40 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -16128,308 +16125,15 @@ if (false) {
 }
 
 /***/ }),
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(48)
+var __vue_script__ = __webpack_require__(39)
 /* template */
-var __vue_template__ = __webpack_require__(49)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/cells/CellsIndex.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4865cc36", Component.options)
-  } else {
-    hotAPI.reload("data-v-4865cc36", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 48 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    data: function data() {
-        return {
-            cells: []
-        };
-    },
-    mounted: function mounted() {
-        var app = this;
-        axios.get('/api/v1/cells').then(function (resp) {
-            app.cells = resp.data;
-        }).catch(function (resp) {
-            alert("Не могу загрузить ячейки :(");
-        });
-    },
-
-    methods: {
-        deleteEntry: function deleteEntry(id, index) {
-            if (confirm("Подтвердите удаление")) {
-                var app = this;
-                axios.delete('/api/v1/cells/' + id).then(function (resp) {
-                    app.cells.splice(index, 1);
-                }).catch(function (resp) {
-                    alert("Could not delete cell");
-                });
-            }
-        }
-    }
-});
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col" }, [
-        _c("p", { staticClass: "h2" }, [
-          _vm._v("Количество ячеек "),
-          _c("span", { staticClass: "badge badge-secondary" }, [
-            _vm._v(_vm._s(_vm.cells.length))
-          ])
-        ]),
-        _vm._v(" "),
-        _c("br")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col" }, [
-        _c(
-          "p",
-          { staticClass: "float-right" },
-          [
-            _c(
-              "router-link",
-              {
-                staticClass: "btn btn-sm btn-outline-secondary",
-                attrs: { to: { name: "createCell" } }
-              },
-              [_vm._v("Добавить ячейку")]
-            )
-          ],
-          1
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "row" },
-      _vm._l(_vm.cells, function(cell, index) {
-        return _c("div", { staticClass: "col-md-4" }, [
-          _c("div", { staticClass: "card mb-4 box-shadow" }, [
-            _c(
-              "div",
-              { staticClass: "card-header text-right" },
-              [
-                _c(
-                  "router-link",
-                  {
-                    staticClass: "btn btn-sm btn-outline-secondary",
-                    attrs: { to: { name: "editCell", params: { id: cell.id } } }
-                  },
-                  [_c("span", { staticClass: "fa fa-edit" })]
-                ),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-sm btn-outline-secondary",
-                    attrs: { href: "#" },
-                    on: {
-                      click: function($event) {
-                        _vm.deleteEntry(cell.id, index)
-                      }
-                    }
-                  },
-                  [_c("span", { staticClass: "fa fa-trash" })]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("div", { staticClass: "card-text" }, [
-                _c("dl", { staticClass: "row" }, [
-                  _c("dt", { staticClass: "col-sm-5" }, [_vm._v("Номер")]),
-                  _vm._v(" "),
-                  _c("dd", { staticClass: "col-sm-7" }, [
-                    _vm._v(_vm._s(cell.number))
-                  ]),
-                  _vm._v(" "),
-                  _c("dt", { staticClass: "col-sm-5" }, [_vm._v("Штрих-код")]),
-                  _vm._v(" "),
-                  _c("dd", { staticClass: "col-sm-7" }, [
-                    _vm._v(_vm._s(cell.barcode))
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "text-right" }, [
-                _c(
-                  "div",
-                  { staticClass: "btn-group" },
-                  [
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "btn btn-sm btn-outline-secondary",
-                        attrs: {
-                          to: { name: "showCell", params: { id: cell.id } }
-                        }
-                      },
-                      [
-                        _vm._v(
-                          "\n                                    Количество товаров "
-                        ),
-                        _c("span", { staticClass: "badge badge-light" }, [
-                          _vm._v(_vm._s(cell.goods_cells.length))
-                        ])
-                      ]
-                    )
-                  ],
-                  1
-                )
-              ])
-            ])
-          ])
-        ])
-      })
-    )
-  ])
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-4865cc36", module.exports)
-  }
-}
-
-/***/ }),
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = __webpack_require__(62)
-/* template */
-var __vue_template__ = __webpack_require__(63)
+var __vue_template__ = __webpack_require__(40)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -16468,7 +16172,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 62 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16536,7 +16240,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 63 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -16711,15 +16415,15 @@ if (false) {
 }
 
 /***/ }),
-/* 64 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(65)
+var __vue_script__ = __webpack_require__(42)
 /* template */
-var __vue_template__ = __webpack_require__(66)
+var __vue_template__ = __webpack_require__(43)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -16758,7 +16462,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 65 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16838,7 +16542,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 66 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -17013,15 +16717,15 @@ if (false) {
 }
 
 /***/ }),
-/* 67 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(68)
+var __vue_script__ = __webpack_require__(45)
 /* template */
-var __vue_template__ = __webpack_require__(69)
+var __vue_template__ = __webpack_require__(46)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -17038,7 +16742,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources/assets/js/components/cells/CellCreate.vue"
+Component.options.__file = "resources/assets/js/components/cells/CellsIndex.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -17047,9 +16751,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0c860ab3", Component.options)
+    hotAPI.createRecord("data-v-4865cc36", Component.options)
   } else {
-    hotAPI.reload("data-v-0c860ab3", Component.options)
+    hotAPI.reload("data-v-4865cc36", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -17060,11 +16764,34 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 68 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -17098,286 +16825,34 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            cell: {
-                barcode: '',
-                number: ''
-            }
+            cells: []
         };
     },
-    methods: {
-        saveForm: function saveForm() {
-            var app = this;
-            var newCell = app.cell;
-            axios.post('/api/v1/cells', newCell).then(function (resp) {
-                app.$router.push({
-                    path: '/'
-                });
-            }).catch(function (resp) {
-                console.log(resp);
-                alert("Could not create your cell");
-            });
-        }
-    }
-});
-
-/***/ }),
-/* 69 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "row" }, [
-      _vm._m(0),
-      _vm._v(" "),
-      _c("div", { staticClass: "col" }, [
-        _c(
-          "p",
-          { staticClass: "float-right" },
-          [
-            _c(
-              "router-link",
-              {
-                staticClass: "btn btn-sm btn-outline-secondary",
-                attrs: { to: { name: "cellsIndex" } }
-              },
-              [_vm._v("Назад")]
-            )
-          ],
-          1
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "row" }, [
-      _c(
-        "form",
-        {
-          staticClass: "form-custom",
-          on: {
-            submit: function($event) {
-              _vm.saveForm()
-            }
-          }
-        },
-        [
-          _c("div", { staticClass: "form-label-group" }, [
-            _c("label", { attrs: { for: "inputBarcode" } }, [
-              _vm._v("Штрих-код")
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.cell.barcode,
-                  expression: "cell.barcode"
-                }
-              ],
-              staticClass: "form-control",
-              attrs: {
-                type: "text",
-                id: "inputBarcode",
-                placeholder: "Штрих-код",
-                required: ""
-              },
-              domProps: { value: _vm.cell.barcode },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.$set(_vm.cell, "barcode", $event.target.value)
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-label-group" }, [
-            _c("label", { attrs: { for: "inputNumber" } }, [
-              _vm._v("Номер ячейки")
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.cell.number,
-                  expression: "cell.number"
-                }
-              ],
-              staticClass: "form-control",
-              attrs: {
-                type: "text",
-                id: "inputNumber",
-                placeholder: "Номер",
-                required: ""
-              },
-              domProps: { value: _vm.cell.number },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.$set(_vm.cell, "number", $event.target.value)
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("button", { staticClass: "btn btn-lg btn-primary btn-block" }, [
-            _vm._v("Создать")
-          ])
-        ]
-      )
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col" }, [
-      _c("p", { staticClass: "h2" }, [_vm._v("Создание ячейки")]),
-      _vm._v(" "),
-      _c("br")
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0c860ab3", module.exports)
-  }
-}
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = __webpack_require__(71)
-/* template */
-var __vue_template__ = __webpack_require__(72)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/cells/CellEdit.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ff75c81", Component.options)
-  } else {
-    hotAPI.reload("data-v-0ff75c81", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 71 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
         var app = this;
-        var id = app.$route.params.id;
-        app.cellId = id;
-        axios.get('/api/v1/cells/' + id).then(function (resp) {
-            app.cell = resp.data;
-        }).catch(function () {
-            alert("Could not load your cell");
+        axios.get('/api/v1/cells').then(function (resp) {
+            app.cells = resp.data;
+        }).catch(function (resp) {
+            alert("Не могу загрузить ячейки :(");
         });
     },
 
-    data: function data() {
-        return {
-            cellId: null,
-            cell: {
-                barcode: '',
-                number: ''
-            }
-        };
-    },
     methods: {
-        saveForm: function saveForm() {
-            var app = this;
-            var newCell = app.cell;
-            axios.patch('/api/v1/cells/' + app.cellId, newCell).then(function (resp) {
-                app.$router.replace('/');
-            }).catch(function (resp) {
-                console.log(resp);
-                alert("Could not change your cell");
-            });
+        deleteEntry: function deleteEntry(id, index) {
+            if (confirm("Подтвердите удаление")) {
+                var app = this;
+                axios.delete('/api/v1/cells/' + id).then(function (resp) {
+                    app.cells.splice(index, 1);
+                }).catch(function (resp) {
+                    alert("Could not delete cell");
+                });
+            }
         }
     }
 });
 
 /***/ }),
-/* 72 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -17386,7 +16861,16 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "row" }, [
-      _vm._m(0),
+      _c("div", { staticClass: "col" }, [
+        _c("p", { staticClass: "h2" }, [
+          _vm._v("Количество ячеек "),
+          _c("span", { staticClass: "badge badge-secondary" }, [
+            _vm._v(_vm._s(_vm.cells.length))
+          ])
+        ]),
+        _vm._v(" "),
+        _c("br")
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "col" }, [
         _c(
@@ -17397,9 +16881,9 @@ var render = function() {
               "router-link",
               {
                 staticClass: "btn btn-sm btn-outline-secondary",
-                attrs: { to: { name: "cellsIndex" } }
+                attrs: { to: { name: "createCell" } }
               },
-              [_vm._v("Назад")]
+              [_vm._v("Добавить ячейку")]
             )
           ],
           1
@@ -17407,123 +16891,112 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _c("div", { staticClass: "row" }, [
-      _c(
-        "form",
-        {
-          staticClass: "form-custom",
-          on: {
-            submit: function($event) {
-              _vm.saveForm()
-            }
-          }
-        },
-        [
-          _c("div", { staticClass: "form-label-group" }, [
-            _c("label", { attrs: { for: "inputBarcode" } }, [
-              _vm._v("Штрих-код")
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.cell.barcode,
-                  expression: "cell.barcode"
-                }
+    _c(
+      "div",
+      { staticClass: "row" },
+      _vm._l(_vm.cells, function(cell, index) {
+        return _c("div", { staticClass: "col-md-4" }, [
+          _c("div", { staticClass: "card mb-4 box-shadow" }, [
+            _c(
+              "div",
+              { staticClass: "card-header text-right" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "btn btn-sm btn-outline-secondary",
+                    attrs: { to: { name: "editCell", params: { id: cell.id } } }
+                  },
+                  [_c("span", { staticClass: "fa fa-edit" })]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-sm btn-outline-secondary",
+                    attrs: { href: "#" },
+                    on: {
+                      click: function($event) {
+                        _vm.deleteEntry(cell.id, index)
+                      }
+                    }
+                  },
+                  [_c("span", { staticClass: "fa fa-trash" })]
+                )
               ],
-              staticClass: "form-control",
-              attrs: {
-                type: "text",
-                id: "inputBarcode",
-                placeholder: "Штрих-код",
-                required: ""
-              },
-              domProps: { value: _vm.cell.barcode },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.$set(_vm.cell, "barcode", $event.target.value)
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-label-group" }, [
-            _c("label", { attrs: { for: "inputNumber" } }, [
-              _vm._v("Номер ячейки")
-            ]),
+              1
+            ),
             _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.cell.number,
-                  expression: "cell.number"
-                }
-              ],
-              staticClass: "form-control",
-              attrs: {
-                type: "text",
-                id: "inputNumber",
-                placeholder: "Номер",
-                required: ""
-              },
-              domProps: { value: _vm.cell.number },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.$set(_vm.cell, "number", $event.target.value)
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("button", { staticClass: "btn btn-lg btn-primary btn-block" }, [
-            _vm._v("Обновить")
+            _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "card-text" }, [
+                _c("dl", { staticClass: "row" }, [
+                  _c("dt", { staticClass: "col-sm-5" }, [_vm._v("Номер")]),
+                  _vm._v(" "),
+                  _c("dd", { staticClass: "col-sm-7" }, [
+                    _vm._v(_vm._s(cell.number))
+                  ]),
+                  _vm._v(" "),
+                  _c("dt", { staticClass: "col-sm-5" }, [_vm._v("Штрих-код")]),
+                  _vm._v(" "),
+                  _c("dd", { staticClass: "col-sm-7" }, [
+                    _vm._v(_vm._s(cell.barcode))
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text-right" }, [
+                _c(
+                  "div",
+                  { staticClass: "btn-group" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "btn btn-sm btn-outline-secondary",
+                        attrs: {
+                          to: { name: "showCell", params: { id: cell.id } }
+                        }
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Количество товаров "
+                        ),
+                        _c("span", { staticClass: "badge badge-light" }, [
+                          _vm._v(_vm._s(cell.goods_cells.length))
+                        ])
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ])
+            ])
           ])
-        ]
-      )
-    ])
+        ])
+      })
+    )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col" }, [
-      _c("p", { staticClass: "h2" }, [_vm._v("Редактирование ячейки")]),
-      _vm._v(" "),
-      _c("br")
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0ff75c81", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-4865cc36", module.exports)
   }
 }
 
 /***/ }),
-/* 73 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(74)
+var __vue_script__ = __webpack_require__(48)
 /* template */
-var __vue_template__ = __webpack_require__(75)
+var __vue_template__ = __webpack_require__(49)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -17562,7 +17035,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 74 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17716,7 +17189,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 75 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -18060,6 +17533,514 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-c76fd018", module.exports)
   }
 }
+
+/***/ }),
+/* 50 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(51)
+/* template */
+var __vue_template__ = __webpack_require__(52)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/cells/CellCreate.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-0c860ab3", Component.options)
+  } else {
+    hotAPI.reload("data-v-0c860ab3", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            cell: {
+                barcode: '',
+                number: ''
+            }
+        };
+    },
+    methods: {
+        saveForm: function saveForm() {
+            var app = this;
+            var newCell = app.cell;
+            axios.post('/api/v1/cells', newCell).then(function (resp) {
+                app.$router.push({
+                    path: '/'
+                });
+            }).catch(function (resp) {
+                console.log(resp);
+                alert("Could not create your cell");
+            });
+        }
+    }
+});
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [
+        _c(
+          "p",
+          { staticClass: "float-right" },
+          [
+            _c(
+              "router-link",
+              {
+                staticClass: "btn btn-sm btn-outline-secondary",
+                attrs: { to: { name: "cellsIndex" } }
+              },
+              [_vm._v("Назад")]
+            )
+          ],
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "form",
+        {
+          staticClass: "form-custom",
+          on: {
+            submit: function($event) {
+              _vm.saveForm()
+            }
+          }
+        },
+        [
+          _c("div", { staticClass: "form-label-group" }, [
+            _c("label", { attrs: { for: "inputBarcode" } }, [
+              _vm._v("Штрих-код")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.cell.barcode,
+                  expression: "cell.barcode"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: {
+                type: "text",
+                id: "inputBarcode",
+                placeholder: "Штрих-код",
+                required: ""
+              },
+              domProps: { value: _vm.cell.barcode },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.cell, "barcode", $event.target.value)
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-label-group" }, [
+            _c("label", { attrs: { for: "inputNumber" } }, [
+              _vm._v("Номер ячейки")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.cell.number,
+                  expression: "cell.number"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: {
+                type: "text",
+                id: "inputNumber",
+                placeholder: "Номер",
+                required: ""
+              },
+              domProps: { value: _vm.cell.number },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.cell, "number", $event.target.value)
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("button", { staticClass: "btn btn-lg btn-primary btn-block" }, [
+            _vm._v("Создать")
+          ])
+        ]
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col" }, [
+      _c("p", { staticClass: "h2" }, [_vm._v("Создание ячейки")]),
+      _vm._v(" "),
+      _c("br")
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-0c860ab3", module.exports)
+  }
+}
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(54)
+/* template */
+var __vue_template__ = __webpack_require__(55)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/cells/CellEdit.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-0ff75c81", Component.options)
+  } else {
+    hotAPI.reload("data-v-0ff75c81", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 54 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    mounted: function mounted() {
+        var app = this;
+        var id = app.$route.params.id;
+        app.cellId = id;
+        axios.get('/api/v1/cells/' + id).then(function (resp) {
+            app.cell = resp.data;
+        }).catch(function () {
+            alert("Could not load your cell");
+        });
+    },
+
+    data: function data() {
+        return {
+            cellId: null,
+            cell: {
+                barcode: '',
+                number: ''
+            }
+        };
+    },
+    methods: {
+        saveForm: function saveForm() {
+            var app = this;
+            var newCell = app.cell;
+            axios.patch('/api/v1/cells/' + app.cellId, newCell).then(function (resp) {
+                app.$router.replace('/');
+            }).catch(function (resp) {
+                console.log(resp);
+                alert("Could not change your cell");
+            });
+        }
+    }
+});
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [
+        _c(
+          "p",
+          { staticClass: "float-right" },
+          [
+            _c(
+              "router-link",
+              {
+                staticClass: "btn btn-sm btn-outline-secondary",
+                attrs: { to: { name: "cellsIndex" } }
+              },
+              [_vm._v("Назад")]
+            )
+          ],
+          1
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "form",
+        {
+          staticClass: "form-custom",
+          on: {
+            submit: function($event) {
+              _vm.saveForm()
+            }
+          }
+        },
+        [
+          _c("div", { staticClass: "form-label-group" }, [
+            _c("label", { attrs: { for: "inputBarcode" } }, [
+              _vm._v("Штрих-код")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.cell.barcode,
+                  expression: "cell.barcode"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: {
+                type: "text",
+                id: "inputBarcode",
+                placeholder: "Штрих-код",
+                required: ""
+              },
+              domProps: { value: _vm.cell.barcode },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.cell, "barcode", $event.target.value)
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-label-group" }, [
+            _c("label", { attrs: { for: "inputNumber" } }, [
+              _vm._v("Номер ячейки")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.cell.number,
+                  expression: "cell.number"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: {
+                type: "text",
+                id: "inputNumber",
+                placeholder: "Номер",
+                required: ""
+              },
+              domProps: { value: _vm.cell.number },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.cell, "number", $event.target.value)
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("button", { staticClass: "btn btn-lg btn-primary btn-block" }, [
+            _vm._v("Обновить")
+          ])
+        ]
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col" }, [
+      _c("p", { staticClass: "h2" }, [_vm._v("Редактирование ячейки")]),
+      _vm._v(" "),
+      _c("br")
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-0ff75c81", module.exports)
+  }
+}
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class GoodsCell extends Model
 {
-    protected $fillable = ['product_amount'];
+    protected $fillable = ['cell_id', 'product_id', 'product_amount'];
 
     public function cell()
     {
