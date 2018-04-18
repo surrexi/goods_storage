@@ -1,5 +1,6 @@
 <?php
 
+use App\Product;
 use Faker\Generator as Faker;
 
 /*
@@ -13,7 +14,7 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(App\Product::class, function (Faker $faker) {
+$factory->define(Product::class, function (Faker $faker) {
     return [
         'barcode' => $faker->unique()->isbn13,
         'title' => $faker->name,

@@ -4,11 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Cell extends Model
 {
-    protected $fillable = [
-        'barcode', 'title', 'title_manufacturer'
-    ];
+    protected $fillable = ['barcode', 'number'];
 
     public function goodsCells()
     {
