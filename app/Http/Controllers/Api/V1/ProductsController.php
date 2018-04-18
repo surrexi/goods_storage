@@ -65,6 +65,9 @@ class ProductsController extends Controller
     public function destroy($id)
     {
         $product = Product::findOrFail($id);
+        foreach ($product->goodsCells as $goodsCell) {
+            $goodsCell->delete();
+        }
         $product->delete();
         return null;
     }
